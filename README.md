@@ -79,8 +79,8 @@ If you use Ubuntu/Debian, this will install supplementary libraries needed
 for a few optional modules (note that some might not be available on your distribution):
 
 ```
-apt-get install libssl-dev libssh-dev libidn11-dev libpcre3-dev \
-                 libgtk2.0-dev libmysqlclient-dev libpq-dev libsvn-dev \
+apt-get install libssl1.0-dev libssh-dev libidn11-dev libpcre3-dev \
+                 libgtk2.0-dev default-libmysqlclient-dev libpq-dev libsvn-dev \
                  firebird-dev
 ```
 
